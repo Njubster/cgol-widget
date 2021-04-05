@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conway's game of life</title>
+</head>
+<body>
+  <div>
+    <h1>Conway's game of life widget</h1>
+    <cgol-widget
+      id="cgol-widget"
+      cols="50"
+      rows="30"
+      population-percentage="50"
+      generation-lifespan="200"
+      cell-size="8"
+      cell-spacing="2"
+      bg-color="black"
+      cell-color="yellow"
+      dead-cell-color="gray"
+      restart-interval="0"
+      font-color="yellow"
+      show-stats="false"
+      show-extinction-stats="true"
+      ></cgol-widget>
+  </div>
+
+  <script src="./cgol.js"></script>
+</body>
+</html>
